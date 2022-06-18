@@ -1,0 +1,22 @@
+package week1.day2.classroom.arrays;
+
+public class PrintDuplicatesInArray {
+public static void main(String[] args) {
+		
+		int[] arr = {14,12,13,11,15,14,18,16,17,19,18,17,20};
+		int arraylength = arr.length;
+		System.out.println("Duplicate Value : ");
+		int count;
+		for (int i=0; i<=arraylength-1;i++)
+		{
+			count = 0;
+			for (int j=1; j<arraylength;j++) {
+				if(arr[i]==arr[j] && i<j)
+				{
+					count++;
+						if(count!=0) {
+				System.out.println(arr[j]);
+		}
+}
+}
+}}}
